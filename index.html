@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CosmosOfGames</title>
+        <title>Cosmos of Games</title>
         <link rel="stylesheet" type="text/css" href="main.css">
         <script src="gamesload.js"></script>
         <script src="otherjs.js"></script>
     </head>
     <body>
-        <iframe id="viewer" style="" src="" height="770px" width="1130px"></iframe>
+        <!--<iframe id="viewer" style="position: fixed; display: block; left: vw" src="" height="770px" width="1130px"></iframe>
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">-->
+        <param name="quality" value="high" />
+        <param name="scale" value="exactfit">
+        <div style="position: absolute; height: 90%; width: 90%; left: 70px;" id="viewerholder">
+        <embed style="position: absolute; left: 5%; top: 5%" src="http://agar.io" quality="high" width="90%" height="80%" scale="exactfit" />
+        </div>
         <div style="" id="buttonholder">
             <div id = "label" style="">
             GAMES

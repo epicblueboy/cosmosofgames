@@ -1,18 +1,11 @@
 function loadgame(game) {
-    var viewer = document.getElementById('viewer');
-    viewer.style.border = "1px solid blue";
-    viewer.style.borderRadius = '0px';
-    viewer.style.backgroundImage = '';
+    var viewer = document.getElementById('viewerholder');
     switch (game) {
         case 'ff2': 
-            viewer.src = "ff2.swf";
-            viewer.height = "565px";
-            viewer.width = "450px";
+            viewerholder.innerHTML='<embed style="position: absolute; left: 20%; top: 5%" src="ff2.swf" quality="high" width="90%" height="80%" scale="exactfit" />'
             break;
         case 'slitherio':
-            viewer.src = "http://slither.io";
-            viewer.height = "750px";
-            viewer.width = "1000px";
+            viewerholder.innerHTML='<embed style="position: absolute; left: 5%; top: 5%" src="http://slither.io" quality="high" width="90%" height="80%" scale="exactfit" />'
             break;
         case 'agario':
             viewer.src = "http://agar.io";

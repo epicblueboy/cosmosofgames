@@ -39,8 +39,7 @@ button:active {
     color: cyan;
     border: 3px solid cyan;
 }
-body {
-    height: 100%;
+body,html {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Night_stars_berlin.png');
     background-color: black;
     background-repeat: no-repeat;
@@ -49,26 +48,6 @@ body {
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     background-attachment: fixed;
-}
-#viewer {
-    margin-top: -10px; 
-    margin-left: -10px; 
-    border: 5px solid blue;
-    background-image: url('http://10-themes.com/data_images/wallpapers/33/405953-cosmos.jpg'); 
-    border-radius: 20px; 
-    margin: auto;
-    display: block;
-    background-position:center;
-    background-repeat: no-repeat;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    transition: background-size 1s;
-}
-#viewer:hover {
-    background-position: 
-    background-size: 0% 0%;
 }
 #buttonholder {
     position: absolute;
