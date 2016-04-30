@@ -71,7 +71,8 @@ body,html {
     width: 220px; 
     height: 20px;
     position: absolute;
-    left: 180px; 
+    top: 20%;
+    left: 44%; 
     text-align: right; 
     font-weight: 900; 
     color: white; 
