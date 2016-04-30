@@ -49,14 +49,13 @@ body,html {
     background-size: 100% 100%;
     background-attachment: fixed;
 }
-#buttonholder {
+#buttonholder { 
     position: absolute;
     top: 5px;
     background-color: #1c18f5;
     overflow-x: hidden;
     height: 40px;
     width: 420px;
-    border-radius: 20px;
     left: -320px;
     transition: left 2s, height 1s, top 2s, background-color 2s, width 2s;
 }
@@ -66,7 +65,23 @@ body,html {
     width: 600px;
     height: 100%;
     background-color: deepskyblue;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
+#buttonholder::-webkit-scrollbar{
+    width:4%;
+    background-color: blue;
+}
+#buttonholder::-webkit-scrollbar-thumb{
+    background-color: lightBlue;
+    border-radius: 5vh;
+}
+#buttonholder::-webkit-scrollbar-thumb:hover{
+    background-color: lightGreen;
+    
+}
+#buttonholder::-webkit-scrollbar-thumb:active{
+    background-color: greenyellow;
+} 
 #label {
     width: 220px; 
     height: 20px;
