@@ -1,8 +1,14 @@
 function loadgame(game) {
     var viewer = document.getElementById('viewerholder');
     switch (game) {
+        case 'ff1': 
+            viewerholder.innerHTML = '<embed style="position: absolute; left: 35%; top: 5%" src="ff1.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
+            break;
         case 'ff2': 
             viewerholder.innerHTML = '<embed style="position: absolute; left: 35%; top: 5%" src="ff2.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
+            break;
+        case 'ff3': 
+            viewerholder.innerHTML = '<embed style="position: absolute; left: 30%; top: 5%" src="ff3.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
             break;
         case 'slitherio':
             viewerholder.innerHTML = '<embed style="position: absolute; left: 5%; top: 5%" src="http://slither.io" quality="high" width="90%" height="100%" scale="exactfit" />';
