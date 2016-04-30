@@ -2,7 +2,7 @@ function loadgame(game) {
     var viewer = document.getElementById('viewerholder');
     switch (game) {
         case 'ff2': 
-            viewerholder.innerHTML='<embed style="position: absolute; left: 20%; top: 5%" src="ff2.swf" quality="high" width="90%" height="80%" scale="exactfit" />'
+            viewerholder.innerHTML='<embed style="position: absolute; left: 20%; top: 5%" src="ff2.swf" quality="high" width="90%" height="90%" scale="exactfit" />'
             break;
         case 'slitherio':
             viewerholder.innerHTML='<embed style="position: absolute; left: 5%; top: 5%" src="http://slither.io" quality="high" width="90%" height="80%" scale="exactfit" />'
