@@ -1,3 +1,6 @@
+var backnum = Math.floor((Math.random() * 14) + 1);
+var body = document.getElementsByTagName('body')[0];
+body.style.backgroundImage = "url('./images/backgrounds/background" + backnum + ".jpg')";
 
 var viewerholder = document.getElementById('viewerholder');
 

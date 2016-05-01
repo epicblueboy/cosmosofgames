@@ -1,3 +1,15 @@
+@font-face { 
+    font-family: Airstrike; 
+    src: url('./fonts/airstrike/airstrike.ttf'); 
+}
+@font-face { 
+     font-family: Coalition;
+     src: url('./fonts/coalition/coalition.ttf'); 
+}
+@font-face {
+    font-family: Airstrike3d;
+    src: url('./fonts/airstrike/airstrike3d.ttf');
+}
 /* latin */
 @font-face {
   font-family: 'Quicksand';
@@ -20,7 +32,7 @@ button {
     border: 4px solid #65dcfa;
     color: #65dcfa;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 1.1em;
     font-weight: bold;
     transition: border 0.5s, color 0.5s, background-color 0.5s, border-radius 0.5s;
@@ -39,8 +51,7 @@ button:active {
     color: cyan;
     border: 3px solid cyan;
 }
-body,html {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Night_stars_berlin.png');
+body {
     background-color: black;
     background-repeat: no-repeat;
     -webkit-background-size: 100% 100%;
@@ -90,7 +101,7 @@ body,html {
     left: 44%; 
     text-align: right; 
     font-weight: 900; 
-    color: white; 
-    font-size: 1.28em;
-    font-family: Quicksand;
+    color: lightGreen; 
+    font-size: 1.343em;
+    font-family: Airstrike3d;
 }
