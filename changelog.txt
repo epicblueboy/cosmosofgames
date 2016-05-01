@@ -1,0 +1,13 @@
+Major Version 1:
+*Many internal changes including:
+	*Organized dependencies into folders
+	*Downloaded all of images so they are hosted in GitHub.
+*Randomizing wallpaper
+*Added a changelog
+
+V1.3
+*Added files: new games on the way
+*Completely cleaned up the alignment of the games, they are now perfectly aligned in the center.
+*A couple User Experience changes to the slide out menu.
+*Some other minor improvements
+*New internal code, introducing new fonts to come in the next version.
