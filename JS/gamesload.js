@@ -59,6 +59,9 @@ function loadgame(game) {
         case 'agario':
             viewerholder.innerHTML = '<embed class="game" style="" src="http://agar.io" quality="high" width="80%" height="90%" scale="exactfit" />';
             break;
+        case 'wingsio':
+            viewerholder.innerHTML = '<embed class="game" style="" src="http://wings.io" quality="high" width="80%" height="90%" scale="exactfit" />';
+            break;
         //Pacman
         case 'pacman':
             viewerholder.innerHTML = '<embed class="game" style=""; src="./games/pacman.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
