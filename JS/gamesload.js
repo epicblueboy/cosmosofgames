@@ -1,6 +1,7 @@
 function loadgame(game) {
     var viewer = document.getElementById('viewerholder');
     switch (game) {
+        //Freeway Fury
         case 'ff1': 
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/ff1.swf" quality="high" width="37%" height="79%" scale="exactfit" />';
             break;
@@ -10,6 +11,9 @@ function loadgame(game) {
         case 'ff3': 
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/ff3.swf" quality="high" width="39%" height="79%" scale="exactfit" />';
             break;
+            
+        
+        //Trollface Quest
         case 'tq1': 
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq1.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
             break;
@@ -31,12 +35,32 @@ function loadgame(game) {
         case 'tqtrolltube': 
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/tqtrolltube.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
             break;
+            
+        
+        //Duck Life
+        case 'ducklife1':
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/ducklife1.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'ducklife2':
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/ducklife2.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'ducklife3':
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/ducklife3.swf" quality="high" width="60%" height="70%" scale="exactfit" />';
+            break;
+        case 'ducklife4':
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/ducklife4.swf" quality="high" width="60%" height="70%" scale="exactfit" />';
+            break;
+            
+            
+        //Agario Clones
         case 'slitherio':
             viewerholder.innerHTML = '<embed class="game" style="" src="http://slither.io" quality="high" width="80%" height="90%" scale="exactfit" />';
             break;
         case 'agario':
             viewerholder.innerHTML = '<embed class="game" style="" src="http://agar.io" quality="high" width="80%" height="90%" scale="exactfit" />';
             break;
+            
+        //Other Games
         case 'bloxorz':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/bloxorz.swf" quality="high" width="50%" height="47%" scale="exactfit" />';
             break;

@@ -12,6 +12,10 @@ V1.3
 *Some other minor improvements
 *New internal code, introducing new fonts to come in the next version.
 V1.5
+*Finalized some fonts and integrated them
 *Added some organization to the slide out menu
 *Added the Trollface Quest Series!!
 	*That amounts to 7 new games!
+V1.4
+*Added all 4 Ducklife games
+
