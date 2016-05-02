@@ -84,7 +84,7 @@ function loadgame(game) {
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/stickwar.swf" quality="high" width="70%" height="80%" scale="exactfit" />';
             break;
         case 'tombrunner':
-            viewerholder.innerHTML = '<embed class="game" style=" width: 70%; height: 70%; " src="http://files.cdn.spilcloud.com/webgl/TR-13-01/index.html?gp=1&countryCode=US&siteid=500&channelid=100&siteLocale=en-US&spilStorageId=9829247031" quality="high" scale="exactfit" />';
+            viewerholder.innerHTML = '<embed class="game" style=" width: 80%; height: 80%; " src="http://files.cdn.spilcloud.com/webgl/TR-13-01/index.html?gp=1&countryCode=US&siteid=500&channelid=100&siteLocale=en-US&spilStorageId=9829247031" quality="high" scale="exactfit" />';
             break;
         
     }
