@@ -10,6 +10,27 @@ function loadgame(game) {
         case 'ff3': 
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/ff3.swf" quality="high" width="39%" height="79%" scale="exactfit" />';
             break;
+        case 'tq1': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq1.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'tq2': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq2.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'tq3': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq3.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'tq4': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq4.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'tq5': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq5.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'tqsports': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tqsports.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
+        case 'tqtrolltube': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tqtrolltube.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
         case 'slitherio':
             viewerholder.innerHTML = '<embed class="game" style="" src="http://slither.io" quality="high" width="80%" height="90%" scale="exactfit" />';
             break;

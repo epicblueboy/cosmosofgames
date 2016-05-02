@@ -11,3 +11,7 @@ V1.3
 *A couple User Experience changes to the slide out menu.
 *Some other minor improvements
 *New internal code, introducing new fonts to come in the next version.
+V1.5
+*Added some organization to the slide out menu
+*Added the Trollface Quest Series!!
+	*That amounts to 7 new games!
