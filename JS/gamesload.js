@@ -61,10 +61,10 @@ function loadgame(game) {
             break;
         //Pacman
         case 'pacman':
-            viewerholder.innerHTML = '<embed class="game" style=""; left: 26%; top: 20%" src="./games/pacman.swf" quality="high" width="50%" height="80%" scale="exactfit" />';
+            viewerholder.innerHTML = '<embed class="game" style=""; src="./games/pacman.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
             break;
         case 'mrspacman':
-            viewerholder.innerHTML = '<embed class="game" style=""; left: 26%; top: 20%" src="./games/mrspacman.swf" quality="high" width="50%" height="80%" scale="exactfit" />';
+            viewerholder.innerHTML = '<embed class="game" style=""; src="./games/mrspacman.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
             break;
         //Other Games
         case 'bloxorz':
