@@ -59,7 +59,13 @@ function loadgame(game) {
         case 'agario':
             viewerholder.innerHTML = '<embed class="game" style="" src="http://agar.io" quality="high" width="80%" height="90%" scale="exactfit" />';
             break;
-            
+        //Pacman
+        case 'pacman':
+            viewerholder.innerHTML = '<embed class="game" style=""; left: 26%; top: 20%" src="./games/pacman.swf" quality="high" width="50%" height="80%" scale="exactfit" />';
+            break;
+        case 'mrspacman':
+            viewerholder.innerHTML = '<embed class="game" style=""; left: 26%; top: 20%" src="./games/mrspacman.swf" quality="high" width="50%" height="80%" scale="exactfit" />';
+            break;
         //Other Games
         case 'bloxorz':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/bloxorz.swf" quality="high" width="50%" height="47%" scale="exactfit" />';
@@ -67,9 +73,7 @@ function loadgame(game) {
         case 'chibi-knight':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/chibi-knight.swf" quality="high" width="60%" height="75%" scale="exactfit" />';            
             break;
-        case 'pacman':
-            viewerholder.innerHTML = '<embed class="game" style=""; left: 26%; top: 20%" src="./games/pacman.swf" quality="high" width="50%" height="80%" scale="exactfit" />';
-            break;
+        
         case 'playgo':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/playgo.swf" quality="high" width="50%" height="60%" scale="exactfit" />';
             break;
