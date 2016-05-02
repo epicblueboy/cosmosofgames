@@ -4,7 +4,7 @@
 }
 @font-face { 
      font-family: 'Coalition';
-     src: url('./fonts/coalition/coalition.ttf'); 
+     src: url('../fonts/coalition/coalition.ttf'); 
 }
 @font-face {
     font-family: 'Airstrike3d';
