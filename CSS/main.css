@@ -43,7 +43,7 @@ button:hover {
     width: wrap-content;
     border: 4px solid lightGreen;
     color: lightGreen;
-    background-color: white;
+    background-color: transparent;
     border-radius: 0px;
     font-size: 1.1em;
     
@@ -79,8 +79,8 @@ html {
     top: -30px;
     width: wrap-content;
     height: 100%;
-    background-color: deepskyblue;
-    color: deepskyblue;
+    background-color: transparent;
+    color: transparent;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     transition-delay: 0s;
 }
@@ -89,7 +89,7 @@ html {
     background-color: blue;
 }
 #buttonholder::-webkit-scrollbar:hover{
-    width:8%;
+    width:4%;
     background-color: blue;
 }
 #buttonholder::-webkit-scrollbar-thumb{
