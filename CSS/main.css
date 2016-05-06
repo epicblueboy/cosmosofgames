@@ -94,7 +94,7 @@ html {
 }
 #buttonholder::-webkit-scrollbar-thumb{
     background-color: blue;
-    border-radius: 100%;
+    border-radius: 5vh;
     height: 50%;
 }
 #buttonholder::-webkit-scrollbar-thumb:hover{
