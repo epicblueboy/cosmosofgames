@@ -93,12 +93,12 @@ html {
     background-color: blue;
 }
 #buttonholder::-webkit-scrollbar-thumb{
-    background-color: transparent;
+    background-color: lightGreen;
     border-radius: 5vh;
     height: 50%;
 }
 #buttonholder::-webkit-scrollbar-thumb:hover{
-    background-color: lightGreen;
+    background-color: transparent;
     
 }
 #buttonholder::-webkit-scrollbar-thumb:active{
