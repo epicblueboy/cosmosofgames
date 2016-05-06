@@ -93,7 +93,7 @@ html {
     background-color: blue;
 }
 #buttonholder::-webkit-scrollbar-thumb{
-    background-color: lightBlue;
+    background-color: transparent;
     border-radius: 5vh;
     height: 50%;
 }
