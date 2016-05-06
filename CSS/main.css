@@ -98,7 +98,7 @@ html {
     height: 50%;
 }
 #buttonholder::-webkit-scrollbar-thumb:hover{
-    background-color: transparent;
+    background-color: lightGreen;
     
 }
 #buttonholder::-webkit-scrollbar-thumb:active{
