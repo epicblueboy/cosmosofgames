@@ -86,11 +86,11 @@ html {
 }
 #buttonholder::-webkit-scrollbar{
     width:4%;
-    background-color: blue;
+    background-color: transparent;
 }
 #buttonholder::-webkit-scrollbar:hover{
     width:4%;
-    background-color: blue;
+    background-color: transparent;
 }
 #buttonholder::-webkit-scrollbar-thumb{
     background-color: lightGreen;
