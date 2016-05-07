@@ -8,6 +8,7 @@
     width: 420px;
     left: -315px;
     color: lightGreen;
+    border-radius: 1vh;
     transition: left 1s, height 1s, top 1s, background-color 1s, width 1s, color 0.2s;
     transition-delay: 0.4s;
     
