@@ -22,5 +22,5 @@ button:hover {
 }
 button:active {
     color: cyan;
-    border: 3px solid cyan;
+    border: 4px solid cyan;
 }
