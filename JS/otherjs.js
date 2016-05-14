@@ -1,3 +1,12 @@
+$(window).load(function () {
+    var loadtext = document.getElementById("loadtext");
+    var loader = document.getElementById("loader");
+    loader.style.width = "0%";
+    loader.style.height = "0%";
+    loader.style.zIndex = "-1";
+    loadtext.style.fontSize = "0em";
+    loadtext.style.zIndex = "-1";
+});
 var backnum = Math.floor((Math.random() * 14) + 1);
 var body = document.getElementsByTagName('html')[0];
 body.style.backgroundImage = "url('./images/backgrounds/background" + backnum + ".jpg')";
@@ -16,14 +25,14 @@ else {
             alert('Since you are not running Google Chrome, some features in Cosmos of Games may or may not work.');
         }
     }
-    if(swfobject.hasFlashPlayerVersion("0.0.0")) {
+    /*if(swfobject.hasFlashPlayerVersion("0.0.0")) {
         if(confirm('Most games on Cosmos of Games can only be enjoyed with Adobe Flash Player, which you do not have. Do you want to go download it now?')) {
             location = 'https://get.adobe.com/flashplayer/';
         }
         else {
             alert('We recommend you go download Adobe Flash Player when possible.');
         }
-    }
+    }*/
 }
 
 
