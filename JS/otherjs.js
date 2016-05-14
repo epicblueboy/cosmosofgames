@@ -1,11 +1,15 @@
 $(window).load(function () {
     var loadtext = document.getElementById("loadtext");
     var loader = document.getElementById("loader");
+    var loadicon = document.getElementById('loadicon');
     loader.style.width = "0%";
     loader.style.height = "0%";
     loader.style.zIndex = "-1";
     loadtext.style.fontSize = "0em";
     loadtext.style.zIndex = "-1";
+    loadicon.style.width = "0px";
+    loadicon.style.height = "0px";
+    loadicon.style.zIndex = "-1";
 });
 var backnum = Math.floor((Math.random() * 14) + 1);
 var body = document.getElementsByTagName('html')[0];
