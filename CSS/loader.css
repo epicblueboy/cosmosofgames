@@ -31,20 +31,6 @@
     height: 50px;
     animation: spin2 2s linear infinite;
 }
-#loadicon3 {
-    z-index: 12;
-    display: block;
-    margin: auto;
-    position: relative;    
-    top: 24.5%;
-    transform: translateY(-50%);
-    border: 8px solid transparent;
-    border-top: 4px solid #FFEB3B;
-    border-bottom: 4px solid #303F9F;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    animation: spin3 2s linear infinite;
 }
 @keyframes spin {
     0% { 
@@ -62,20 +48,9 @@
         transform: rotate(0deg) scale(1);
     }
     50% {
-        transform: rotate(-360deg) scale(1.5);
+        transform: rotate(-360deg) scale(3);
     }
     100% { 
         transform: rotate(-720deg) scale(1);
-    }
-}
-@keyframes spin3 {
-    0% { 
-        transform: rotate(0deg) scale(0.5);
-    }
-    50% {
-        transform: rotate(180deg) scale(1.5);
-    }
-    100% { 
-        transform: rotate(360deg) scale(0.5);
     }
 }
