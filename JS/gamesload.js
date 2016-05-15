@@ -1,5 +1,7 @@
 function loadgame(game) {
     var viewer = document.getElementById('viewerholder');
+    var music = document.getElementById('music');
+    music.pause();
     switch (game) {
         //Freeway Fury
         case 'ff1': 

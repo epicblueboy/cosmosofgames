@@ -9,10 +9,12 @@ $(window).load(setTimeout(function() {
     loadicon.style.height = "0px";
     loadicon.style.width = "0px";
     loadicon.style.zIndex = "-1";
-    loadicon.style.top = "-2000px";
+    loadicon.style.top = "-2000px";    
+     
     loadertext.style.fontSize = "0em";
     loadertext.style.color = "transparent";
     loadertext.style.zIndex = "-1";
+    document.getElementById('music').play();
 }, 4000));
 var backnum = Math.floor((Math.random() * 14) + 1);
 var body = document.getElementsByTagName('html')[0];
