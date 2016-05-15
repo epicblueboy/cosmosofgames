@@ -1,7 +1,8 @@
 
 $(window).load(setTimeout(function() {
     var loader = document.getElementById('loader');
-    var loadicon = document.getElementById('loadicon2');
+    var loadicon = document.getElementById('loadicon');
+    var loadertext = document.getElementById('loadertext');
     loader.style.height = "0px";
     loader.style.width = "0px";
     loader.style.zIndex = "-1";
@@ -9,7 +10,10 @@ $(window).load(setTimeout(function() {
     loadicon.style.width = "0px";
     loadicon.style.zIndex = "-1";
     loadicon.style.top = "-2000px";
-}, 2000));
+    loadertext.style.fontSize = "0em";
+    loadertext.style.color = "transparent";
+    loadertext.style.zIndex = "-1";
+}, 4000));
 var backnum = Math.floor((Math.random() * 14) + 1);
 var body = document.getElementsByTagName('html')[0];
 body.style.backgroundImage = "url('./images/backgrounds/background" + backnum + ".jpg')";
