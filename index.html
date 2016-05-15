@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        
         <title>Cosmos of Games</title>
         <link rel="stylesheet" type="text/css" href="./CSS/main.css">
         
+
         
         
     </head>
+    <script src="JS/jquery-1.12.3.min.js"></script>
     <!--Old Code:-->
     <!--<iframe id="viewer" style="position: fixed; display: block; left: vw" src="" height="770px" width="1130px"></iframe>
     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="100%" height="100%">-->
     <param name="quality" value="high" />
     <param name="scale" value="exactfit">
-    <div id="loader" style="height: 100%; width: 100%; z-index: 10; background-color: #2196F3; text-align: center; position: absolute; left: -0%; top: -0%">
-    <span style="position: relative;
-  top: 50%;
-  transform: translateY(-50%); text-align: center; width: 100%; font-size: 5em; color: #F44336" id="loadtext">Cosmos of Games is loading...</span>
-    <img src="images/other/loading.png" style="transform: rotate(0deg); height: 100px; width: 100px; left: 50%; margin-left: -50px; position: absolute; top: 70%" id="loadicon">
+    <div id="loader" style="">
+        <div id="loadicon">
+        
+        </div>
+        <div id="loadicon2">
+        
+        </div>
+        <div id="loadicon3">
+        
+        </div>
     </div>
-    <script src="./JS/loader.js"></script>
     <div style="height: 96%; width: 99%; position: absolute; display: block; margin: auto;" id="viewerholder" >
         
     </div>
@@ -101,7 +107,7 @@
         <br><br>
         <button onClick="loadgame('tombrunner')"><img src="./images/gamepictures/tombrunner.gif" style="width: 200px"><br>Tomb Runner</button>
     </div>
-    
-    <script src="./JS/otherjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/loader.css">
+    <script src="JS/otherjs.js"></script>
     <script src="./JS/gamesload.js"></script>
 </html>

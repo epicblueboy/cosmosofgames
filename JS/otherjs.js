@@ -5,11 +5,18 @@ $(window).load(function () {
     loader.style.width = "0%";
     loader.style.height = "0%";
     loader.style.zIndex = "-1";
-    loadtext.style.fontSize = "0em";
-    loadtext.style.zIndex = "-1";
     loadicon.style.width = "0px";
     loadicon.style.height = "0px";
     loadicon.style.zIndex = "-1";
+    loadicon.style.top = "-2000px"
+    loadicon2.style.width = "0px";
+    loadicon2.style.height = "0px";
+    loadicon2.style.zIndex = "-1";
+    loadicon2.style.top = "-2000px"
+    loadicon3.style.width = "0px";
+    loadicon3.style.height = "0px";
+    loadicon3.style.zIndex = "-1";
+    loadicon3.style.top = "-2000px"
 });
 var backnum = Math.floor((Math.random() * 14) + 1);
 var body = document.getElementsByTagName('html')[0];
@@ -17,7 +24,7 @@ body.style.backgroundImage = "url('./images/backgrounds/background" + backnum + 
 
 var viewerholder = document.getElementById('viewerholder');
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     alert('Cosmos of Games works best with a mouse and keyboard. Please use your desktop computer or laptop.');
 }
 else {
