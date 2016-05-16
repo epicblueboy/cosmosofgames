@@ -18,9 +18,20 @@
 }
 .game {
     position: relative; 
-    margin: auto; 
-    top: 50%; 
+    margin: auto;
+    top: 50%;
     transform: translateY(-50%); 
     display: block;
     opacity: 0.9;
+    animation: gameanim 1s;
+    left: 0%;
+}
+@keyframes gameanim {
+    0% {
+        left: -200%;
+    }
+    100% {
+        left: 0%;
+    }
+    
 }
