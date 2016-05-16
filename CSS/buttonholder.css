@@ -2,7 +2,7 @@
 #buttonholder { 
     position: absolute;
     top: 5px;
-    background-color: rgba(28, 24, 245, 1);
+    background-color: rgba(0, 0, 255, 1);
     overflow-x: hidden;
     height: 10%;
     width: 420px;
@@ -59,4 +59,14 @@
 }
 #buttonholder::-webkit-scrollbar-button:active {
     background-color: rgba(50, 204, 20, 0.8);
+}
+@keyframes slidein {
+    from {
+        left: -500px;
+        color: transparent
+    }
+    to {
+        color: lightGreen;
+        left: -315px;
+    }
 }
