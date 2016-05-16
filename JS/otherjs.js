@@ -14,18 +14,18 @@ $(window).load(setTimeout(function() {
     loadertext.style.color = "transparent";
     loadertext.style.zIndex = "-1";
     document.getElementById('music').play();
-    document.getElementById('hometext').style.animation="hometextanim 3s";
-    document.getElementById('buttonholder').style.animation="slidein 3s";
+     document.getElementById('hometext').style.animation="hometextanim 3s";
+    document.getElementById('buttonholder').style.animation="slidein 3s linear";    
+    var backnum = Math.floor((Math.random() * 14) + 1);
+    var body = document.getElementsByTagName('html')[0];
+    body.style.backgroundImage = "url('./images/backgrounds/background" + backnum + ".jpg')";
 }, 4000));
-var backnum = Math.floor((Math.random() * 14) + 1);
-var body = document.getElementsByTagName('html')[0];
-body.style.backgroundImage = "url('./images/backgrounds/background" + backnum + ".jpg')";
-
 var viewerholder = document.getElementById('viewerholder');
 
 if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     alert('Cosmos of Games works best with a mouse and keyboard. Please use your desktop computer or laptop.');
 }
+
 else {
     if (window.chrome === undefined) {
         if (confirm('Cosmos of Games works best on the Google Chrome browser. You do not seem to be running Google Chrome. Do you want to go download it now?')) {
@@ -44,11 +44,3 @@ else {
         }
     }*/
 }
-
-
-
-
-
-/*if(window.chrome === undefined) {
-    viewerholder.innerHTML += '<br><div style="border: 5px solid blue; border-radius: 1vw; width: 200px; text-align: center;"><a href="https://www.google.com/chrome/browser/desktop/"><img src="http://img.talkandroid.com/uploads/2015/11/Chrome-Logo.png" style="height: 10vw; "></a><br><span style="color: white; font-size: 1.2em;">Cosmos of Games is designed for Google Chrome, the fast, simple, and secure web browser built for the modern web. If you do not have Chrome, click the Chrome icon to go download it.</span></div>';
-}*/

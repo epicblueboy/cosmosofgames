@@ -61,12 +61,15 @@
     background-color: rgba(50, 204, 20, 0.8);
 }
 @keyframes slidein {
-    from {
+    0% {
         left: -500px;
         color: transparent
     }
-    to {
+    70% {
         color: lightGreen;
+        left: -300px;
+    }
+    100% {
         left: -315px;
     }
 }
