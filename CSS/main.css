@@ -23,7 +23,7 @@
     transform: translateY(-50%); 
     display: block;
     opacity: 1;
-    animation: gameanim 1s linear;
+    animation: gameanim 2s;
     left: 0%;
 }
 @keyframes gameanim {
@@ -32,9 +32,12 @@
         opacity: 0;
         left: -200%;
     }
+    50% {    
+        border-width: 30px;
+        left: 20%;
+    }
     70% {
-        border-color: coral;
-        left: 0%;
+        border-width: 40px;
         opacity: 0.3;
     }
     100% {
