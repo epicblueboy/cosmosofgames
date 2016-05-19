@@ -74,6 +74,13 @@ function loadgame(game) {
         case 'mrspacman':
             viewerholder.innerHTML = '<embed class="game" style=""; src="./games/mrspacman.swf" quality="high" width="50%" height="90%" scale="exactfit" />';
             break;
+        //Run
+        case 'run1':
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/run1.swf" quality="high" width="60%" height="70%" scale="exactfit" />';
+            break;
+        case 'run2':
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/run2.swf" quality="high" width="60%" height="70%" scale="exactfit" />';
+            break;
         //Other Games
         case 'bloxorz':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/bloxorz.swf" quality="high" width="50%" height="47%" scale="exactfit" />';
@@ -81,12 +88,8 @@ function loadgame(game) {
         case 'chibi-knight':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/chibi-knight.swf" quality="high" width="60%" height="75%" scale="exactfit" />';            
             break;
-        
         case 'playgo':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/playgo.swf" quality="high" width="50%" height="60%" scale="exactfit" />';
-            break;
-        case 'run2':
-            viewerholder.innerHTML = '<embed class="game" style="" src="./games/run2.swf" quality="high" width="60%" height="70%" scale="exactfit" />';
             break;
         case 'stickwar':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/stickwar.swf" quality="high" width="70%" height="80%" scale="exactfit" />';
