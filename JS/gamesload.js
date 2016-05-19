@@ -37,6 +37,9 @@ function loadgame(game) {
         case 'tqtrolltube': 
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/tqtrolltube.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
             break;
+        case 'tq13': 
+            viewerholder.innerHTML = '<embed class="game" style="" src="./games/tq13.swf" quality="high" width="60%" height="80%" scale="exactfit" />';
+            break;
             
         
         //Duck Life
