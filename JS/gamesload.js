@@ -95,8 +95,20 @@ function loadgame(game) {
             
         //Ballons Tower Defense
         case 'Ballons Tower Defense 5'
-            viewerholder.innerHTML ='embed class="game" style"" src="./games/bloonstd5.swf" quality="high" width="70%" height="50%" scale="exactfit" />';
+            viewerholder.innerHTML ='<embed class="game" style"" src="./games/bloonstd5.swf" quality="high" width="70%" height="50%" scale="exactfit" />';
             break;
+        case 'Ballons Tower Defense 4'
+            viewerholder.innerHTML ='<embed class="game" style"" src="./games/bloonstd4.swf" quality="high" width="70%" height="50%" scale="exactfit" />';
+            break;    
+        case 'Ballons Tower Defense 3'
+            viewerholder.innerHTML ='<embed class="game" style"" src="./games/bloonstd3.swf" quality="high" width="70%" height="50%" scale="exactfit" />';
+            break;     
+        case 'Ballons Tower Defense 2'
+            viewerholder.innerHTML ='embed class="game" style"" src="./games/bloonstd2.swf" quality="high" width="70%" height="50%" scale="exactfit" />';
+            break;     
+        case 'Ballons Tower Defense 1'
+            viewerholder.innerHTML ='embed class="game" style"" src="./games/bloonstd1.swf" quality="high" width="70%" height="50%" scale="exactfit" />';
+            break;     
         //Other Games
         case 'tosstheturtle':
             viewerholder.innerHTML = '<embed class="game" style="" src="./games/tosstheturtle.swf" quality="high" width="70%" height="80%" scale="exactfit" />';
