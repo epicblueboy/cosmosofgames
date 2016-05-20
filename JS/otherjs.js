@@ -13,7 +13,7 @@ $(window).load(setTimeout(function() {
     loadertext.style.fontSize = "0em";
     loadertext.style.color = "transparent";
     loadertext.style.zIndex = "-1";
-    document.getElementById('music').src = "audio/music" + Math.floor((Math.random() * 3) + 1) + ".mp3";
+    document.getElementById('music').src = "audio/music" + Math.floor((Math.random() * 7) + 1) + ".mp3";
     document.getElementById('music').play();
      document.getElementById('hometext').style.animation="hometextanim 3s";
     document.getElementById('opensource').style.animation = "opensourceanim 2s";

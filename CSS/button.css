@@ -8,6 +8,7 @@ button {
     border-radius: 10px;
     font-size: 1.1em;
     font-weight: bold;
+    animation: buttonanim 1s;
     transition: border 0.5s, color 0.5s, background-color 0.5s, border-radius 0.5s;
 }
 button:hover {
@@ -45,4 +46,16 @@ button.discrete:hover {
     border-radius: 0px;
     font-size: 0.9em;
     
+}
+
+@keyframes buttonanim {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }

@@ -2,48 +2,8 @@
 @import url('button.css');
 @import url('buttonholder.css');
 @import url('html.css');
-
-#label {
-    width: 220px; 
-    height: 20px;
-    position: absolute;
-    top: 50%; 
-    transform: translateY(-50%); 
-    display: block;
-    left: 44%; 
-    text-align: right; 
-    font-weight: 900; 
-    font-size: 1.343em;
-    font-family: Airstrike3d;
-}
-.game {
-    position: relative; 
-    margin: auto;
-    top: 50%;
-    transform: translateY(-50%); 
-    display: block;
-    opacity: 1;
-    animation: gameanim 2s;
-    left: 0%;
-}
-@keyframes gameanim {
-    0% {
-        border: 20px solid coral;
-        opacity: 0;
-        left: -200%;
-    }
-    40% {    
-        border-width: 30px;
-        left: 15%;
-    }
-    80% {
-        border-width: 40px;
-        opacity: 0.3;
-        left: -15%;
-    }
-    100% {
-        border: 0px solid blue;
-        opacity: 1;
-    }
-    
-}
+@import url('opensource.css');
+@import url('intialviewercontent.css');
+@import url('loader.css');
+@import url('label.css');
+@import url('game.css');

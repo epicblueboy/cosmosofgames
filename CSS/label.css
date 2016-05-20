@@ -1,0 +1,13 @@
+#label {
+    width: 220px; 
+    height: 20px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    display: block;
+    left: 44%; 
+    text-align: right; 
+    font-weight: 900; 
+    font-size: 1.343em;
+    font-family: Airstrike3d;
+}
