@@ -1,168 +1,266 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-        <title>Cosmos of Games</title>
-        <link rel="stylesheet" type="text/css" href="./CSS/main.css">
-        
-
-        
-        
-    </head>
-    <script src="JS/jquery-1.12.3.min.js"></script>
-    <audio src="" id="music" loop></audio>
-    <param name="quality" value="high" />
-    <param name="scale" value="exactfit">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Cosmos of Games
+    </title>
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css" />
+    <script src="JS/jquery-1.12.3.min.js" type="text/javascript">
+</script>
+  </head>
+  <body>
     <div id="loader" style="">
-        <h1 id="loadertext">
-            Cosmos of Games
-            <br>
-            is loading. 
-            <br>
-            
-        </h1>
-        <div id="loadicon">
-            
-        </div>
+      <h1 id="loadertext">
+        Cosmos of Games<br />
+        is loading.<br />
+      </h1>
+      <div id="loadicon"></div>
     </div>
-    <div style="height: 96%; width: 99%; position: absolute; display: block; margin: auto; " id="viewerholder" >
-        <h1 id="hometext">
-            Welcome to Cosmos of Games:
-            <br>
-            The Greatest Gaming Website in the Universe
-        </h1>
-        <div id="centerring">
-        
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <p id="opensource">
-        Cosmos of Games is an open source effort. If you would like to contribute to the project, or obtain the source code, please click this button:
-            <br>
-            <button class="discrete" onClick="opensource()">Click Here</button>
-        </p>
+    <div style=
+    "height: 96%; width: 99%; position: absolute; display: block; margin: auto;"
+    id="viewerholder">
+      <h1 id="hometext">
+        Welcome to Cosmos of Games:<br />
+        The Greatest Gaming Website in the Universe
+      </h1>
+      <div id="centerring"></div><br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <p id="opensource">
+        Cosmos of Games is an open source effort. If you would like
+        to contribute to the project, or obtain the source code,
+        please click this button:<br />
+        <button class="discrete" onclick="opensource()">Click
+        Here</button>
+      </p>
     </div>
     <div style="" id="buttonholder">
-        <div id="label" style="">
+      <div id="label" style="">
         GAMES
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Freeway Fury</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('ff1')"><img class="gameimage" src="./images/gamepictures/ff1.jpg" style=""><br>Freeway Fury 1</button>
-        <br><br>
-        <button onClick="loadgame('ff2')"><img class="gameimage" src="./images/gamepictures/ff2.jpg" style=""><br>Freeway Fury 2</button>
-        <br><br>
-        <button onClick="loadgame('ff3')"><img class="gameimage" src="./images/gamepictures/ff3.jpg" style=""><br>Freeway Fury 3</button>
-        <br><br><br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Duck Life</span>
-        <br><br><br>
-        <button onClick="loadgame('ducklife1')"><img class="gameimage" src="./images/gamepictures/ducklife1.png" style=""><br>Duck Life 1</button>
-        <br><br>
-        <button onClick="loadgame('ducklife2')"><img class="gameimage" src="./images/gamepictures/ducklife2.png" style=""><br>Duck Life 2</button>
-        <br><br>
-        <button onClick="loadgame('ducklife3')"><img class="gameimage" src="./images/gamepictures/ducklife3.jpg" style=""><br>Duck Life 3</button>
-        <br><br>
-        <button onClick="loadgame('ducklife4')"><img class="gameimage" src="./images/gamepictures/ducklife4.png" style=""><br>Duck Life 4</button>
-        <br>
-        <br>
-        <br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Trollface Quest</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('tq1')"><img class="gameimage" src="./images/gamepictures/tq1.jpg" style=""><br>Trollface Quest</button>
-        <br><br>
-        <button onClick="loadgame('tq2')"><img class="gameimage" src="./images/gamepictures/tq2.jpg" style=""><br>Trollface Quest 2</button>
-        <br><br>
-        <button onClick="loadgame('tq3')"><img class="gameimage" src="./images/gamepictures/tq3.png" style=""><br>Trollface Quest 3</button>
-        <br><br>
-        <button onClick="loadgame('tq4')"><img class="gameimage" src="./images/gamepictures/tq4.jpg" style=""><br>Trollface Quest 4</button>
-        <br><br>
-        <button onClick="loadgame('tq5')"><img class="gameimage" src="./images/gamepictures/tq5.jpg" style=""><br>Trollface Quest 5</button>
-        <br><br>
-        <button onClick="loadgame('tqsports')"><img class="gameimage" src="./images/gamepictures/tqsports.jpg" style=""><br>Trollface Quest: Sports</button>
-        <br><br>
-        <button onClick="loadgame('tqtrolltube')"><img class="gameimage" src="./images/gamepictures/tqtrolltube.jpg" style=""><br>Trollface Quest: TrollTube</button>
-        <br><br>
-        <button onClick="loadgame('tq13')"><img class="gameimage" src="./images/gamepictures/tq13.jpg" style=""><br>Trollface Quest: 13</button>
-        <br><br><br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">.io Games</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('agario')"><img class="gameimage" src="./images/gamepictures/agario.jpg" style=""><br>Agar.io</button>
-        <br><br>
-        <button onClick="loadgame('diepio')"><img class="gameimage" src="./images/gamepictures/diepio.jpg" style=""><br>Diep.io</button>
-        <br><br>
-        <button onClick="loadgame('wingsio')"><img class="gameimage" src="./images/gamepictures/wingsio.jpg" style=""><br>Wings.io</button>
-        <br><br>
-        <button onClick="loadgame('slitherio')"><img class="gameimage" src="./images/gamepictures/slitherio.jpg" style=""><br>Slither.io</button>
-        <br><br><br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Pacman</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('pacman')"><img class="gameimage" src="./images/gamepictures/pacman.gif" style=""><br>Pacman</button>
-        <br><br>
-        <button onClick="loadgame('mrspacman')"><img class="gameimage" src="./images/gamepictures/mrspacman.png" style=""><br>Mrs Pacman</button>
-        <br><br><br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Onslaught TD</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('onslaught')"><img class="gameimage" src="./images/gamepictures/onslaught.jpg" style=""><br>Onslaught</button>
-        <br><br>
-        <button onClick="loadgame('onslaught2')"><img class="gameimage" src="./images/gamepictures/onslaught2.png" style=""><br>Onslaught 2</button>
-        <br><br><br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Run</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('run1')"><img class="gameimage" src="./images/gamepictures/run1.gif" style=""><br>Run 1</button>
-        <br><br>
-        <button onClick="loadgame('run2')"><img class="gameimage" src="./images/gamepictures/run2.jpg" style=""><br>Run 2</button>
-        <br><br><br>
-        span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Ballons Tower Defense</span>
-        <br>
-        <br>
-        <br>
-        <button onClick="loadgame('bloonstd5')"><img class="gameimage" src="./images/gamepictures/bloonstd5.jpg" style=""><br>Ballons Tower Defense 5</button>
-        <br><br>
-        <button onClick="loadgame('bloonstd4')"><img class="gameimage" src="./images/gamepictures/bloonstd4.jpg" style=""><br>Ballons Tower Defense 4</button>
-        <br><br>
-        <button onClick="loadgame('bloonstd3')"><img class="gameimage" src="./images/gamepictures/bloonstd3.jpg" style=""><br>Ballons Tower Defense 3</button>
-        <br><br>
-        <button onClick="loadgame('bloonstd2')"><img class="gameimage" src="./images/gamepictures/Bloonstd2.png" style=""><br>Ballons Tower Defense 2</button>
-        <br><br>
-        <button onClick="loadgame('bloonstd1')"><img class="gameimage" src="./images/gamepictures/bloonstd1.jpg" style=""><br>Ballons Tower Defense</button>
-        <br><br><br>
-        <span style="font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">Other Games</span>
-        <br>
-        <br>
-        <br>       
-        <button onClick="loadgame('bloxorz')"><img class="gameimage" src="./images/gamepictures/bloxorz.jpg" style=""><br>Bloxorz</button>
-        <br><br>       
-        <button onClick="loadgame('tosstheturtle')"><img class="gameimage" src="./images/gamepictures/tosstheturtle.jpg" style=""><br>Toss The Turtle</button>
-        <br><br>
-        <button onClick="loadgame('chibi-knight')"><img class="gameimage" src="./images/gamepictures/chibi-knight.png" style=""><br>Chibi Knights</button>
-        <br><br>
-        <button onClick="loadgame('playgo')"><img class="gameimage" src="./images/gamepictures/playgo.jpg" style=""><br>Playgo</button>
-        <br><br>
-        <button onClick="loadgame('stickwar')"><img class="gameimage" src="./images/gamepictures/stickwar.jpg" style=""><br>Stick War</button>
-        <br><br>
-        <button onClick="loadgame('tombrunner')"><img class="gameimage" src="./images/gamepictures/tombrunner.gif" style=""><br>Tomb Runner</button>
-    </div>
-    <script src="JS/otherjs.js"></script>
-    <script src="./JS/gamesload.js"></script>
+      </div><br />
+      <br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Freeway Fury</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('ff1')"><img class="gameimage" src=
+      "./images/gamepictures/ff1.jpg" style="" /><br />
+      Freeway Fury 1</button><br />
+      <br />
+      <button onclick="loadgame('ff2')"><img class="gameimage" src=
+      "./images/gamepictures/ff2.jpg" style="" /><br />
+      Freeway Fury 2</button><br />
+      <br />
+      <button onclick="loadgame('ff3')"><img class="gameimage" src=
+      "./images/gamepictures/ff3.jpg" style="" /><br />
+      Freeway Fury 3</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Duck Life</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('ducklife1')"><img class=
+      "gameimage" src="./images/gamepictures/ducklife1.png" style=
+      "" /><br />
+      Duck Life 1</button><br />
+      <br />
+      <button onclick="loadgame('ducklife2')"><img class=
+      "gameimage" src="./images/gamepictures/ducklife2.png" style=
+      "" /><br />
+      Duck Life 2</button><br />
+      <br />
+      <button onclick="loadgame('ducklife3')"><img class=
+      "gameimage" src="./images/gamepictures/ducklife3.jpg" style=
+      "" /><br />
+      Duck Life 3</button><br />
+      <br />
+      <button onclick="loadgame('ducklife4')"><img class=
+      "gameimage" src="./images/gamepictures/ducklife4.png" style=
+      "" /><br />
+      Duck Life 4</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Trollface Quest</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('tq1')"><img class="gameimage" src=
+      "./images/gamepictures/tq1.jpg" style="" /><br />
+      Trollface Quest</button><br />
+      <br />
+      <button onclick="loadgame('tq2')"><img class="gameimage" src=
+      "./images/gamepictures/tq2.jpg" style="" /><br />
+      Trollface Quest 2</button><br />
+      <br />
+      <button onclick="loadgame('tq3')"><img class="gameimage" src=
+      "./images/gamepictures/tq3.png" style="" /><br />
+      Trollface Quest 3</button><br />
+      <br />
+      <button onclick="loadgame('tq4')"><img class="gameimage" src=
+      "./images/gamepictures/tq4.jpg" style="" /><br />
+      Trollface Quest 4</button><br />
+      <br />
+      <button onclick="loadgame('tq5')"><img class="gameimage" src=
+      "./images/gamepictures/tq5.jpg" style="" /><br />
+      Trollface Quest 5</button><br />
+      <br />
+      <button onclick="loadgame('tqsports')"><img class="gameimage"
+      src="./images/gamepictures/tqsports.jpg" style="" /><br />
+      Trollface Quest: Sports</button><br />
+      <br />
+      <button onclick="loadgame('tqtrolltube')"><img class=
+      "gameimage" src="./images/gamepictures/tqtrolltube.jpg"
+      style="" /><br />
+      Trollface Quest: TrollTube</button><br />
+      <br />
+      <button onclick="loadgame('tq13')"><img class="gameimage"
+      src="./images/gamepictures/tq13.jpg" style="" /><br />
+      Trollface Quest: 13</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      .io Games</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('agario')"><img class="gameimage"
+      src="./images/gamepictures/agario.jpg" style="" /><br />
+      Agar.io</button><br />
+      <br />
+      <button onclick="loadgame('diepio')"><img class="gameimage"
+      src="./images/gamepictures/diepio.jpg" style="" /><br />
+      Diep.io</button><br />
+      <br />
+      <button onclick="loadgame('wingsio')"><img class="gameimage"
+      src="./images/gamepictures/wingsio.jpg" style="" /><br />
+      Wings.io</button><br />
+      <br />
+      <button onclick="loadgame('slitherio')"><img class=
+      "gameimage" src="./images/gamepictures/slitherio.jpg" style=
+      "" /><br />
+      Slither.io</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Pacman</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('pacman')"><img class="gameimage"
+      src="./images/gamepictures/pacman.gif" style="" /><br />
+      Pacman</button><br />
+      <br />
+      <button onclick="loadgame('mrspacman')"><img class=
+      "gameimage" src="./images/gamepictures/mrspacman.png" style=
+      "" /><br />
+      Mrs Pacman</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Onslaught TD</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('onslaught')"><img class=
+      "gameimage" src="./images/gamepictures/onslaught.jpg" style=
+      "" /><br />
+      Onslaught</button><br />
+      <br />
+      <button onclick="loadgame('onslaught2')"><img class=
+      "gameimage" src="./images/gamepictures/onslaught2.png" style=
+      "" /><br />
+      Onslaught 2</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Run</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('run1')"><img class="gameimage"
+      src="./images/gamepictures/run1.gif" style="" /><br />
+      Run 1</button><br />
+      <br />
+      <button onclick="loadgame('run2')"><img class="gameimage"
+      src="./images/gamepictures/run2.jpg" style="" /><br />
+      Run 2</button><br />
+      <br />
+      <br />
+      span style="font-size: 2em; color: lightGreen; position:
+      absolute; font-family: Airstrike;"&gt;Ballons Tower
+      Defense<br />
+      <br />
+      <br />
+      <button onclick="loadgame('bloonstd5')"><img class=
+      "gameimage" src="./images/gamepictures/bloonstd5.jpg" style=
+      "" /><br />
+      Ballons Tower Defense 5</button><br />
+      <br />
+      <button onclick="loadgame('bloonstd4')"><img class=
+      "gameimage" src="./images/gamepictures/bloonstd4.jpg" style=
+      "" /><br />
+      Ballons Tower Defense 4</button><br />
+      <br />
+      <button onclick="loadgame('bloonstd3')"><img class=
+      "gameimage" src="./images/gamepictures/bloonstd3.jpg" style=
+      "" /><br />
+      Ballons Tower Defense 3</button><br />
+      <br />
+      <button onclick="loadgame('bloonstd2')"><img class=
+      "gameimage" src="./images/gamepictures/Bloonstd2.png" style=
+      "" /><br />
+      Ballons Tower Defense 2</button><br />
+      <br />
+      <button onclick="loadgame('bloonstd1')"><img class=
+      "gameimage" src="./images/gamepictures/bloonstd1.jpg" style=
+      "" /><br />
+      Ballons Tower Defense</button><br />
+      <br />
+      <br />
+      <span style=
+      "font-size: 2em; color: lightGreen; position: absolute; font-family: Airstrike;">
+      Other Games</span><br />
+      <br />
+      <br />
+      <button onclick="loadgame('bloxorz')"><img class="gameimage"
+      src="./images/gamepictures/bloxorz.jpg" style="" /><br />
+      Bloxorz</button><br />
+      <br />
+      <button onclick="loadgame('tosstheturtle')"><img class=
+      "gameimage" src="./images/gamepictures/tosstheturtle.jpg"
+      style="" /><br />
+      Toss The Turtle</button><br />
+      <br />
+      <button onclick="loadgame('chibi-knight')"><img class=
+      "gameimage" src="./images/gamepictures/chibi-knight.png"
+      style="" /><br />
+      Chibi Knights</button><br />
+      <br />
+      <button onclick="loadgame('playgo')"><img class="gameimage"
+      src="./images/gamepictures/playgo.jpg" style="" /><br />
+      Playgo</button><br />
+      <br />
+      <button onclick="loadgame('stickwar')"><img class="gameimage"
+      src="./images/gamepictures/stickwar.jpg" style="" /><br />
+      Stick War</button><br />
+      <br />
+      <button onclick="loadgame('tombrunner')"><img class=
+      "gameimage" src="./images/gamepictures/tombrunner.gif" style=
+      "" /><br />
+      Tomb Runner</button>
+    </div><script src="JS/otherjs.js" type="text/javascript">
+</script><script src="./JS/gamesload.js" type="text/javascript">
+</script>
+  </body>
 </html>
